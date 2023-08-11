@@ -1,3 +1,4 @@
+"use client";
 import React from 'react'
 /**[foldername] :Dyanmic routing*/
 const CategoryPage = () => {
