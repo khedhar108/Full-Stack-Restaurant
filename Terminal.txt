@@ -1,2 +1,6 @@
 npx create-next-app@latest .
 # . create project in curren folder
+
+
+
+npm i react-countdown

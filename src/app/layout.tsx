@@ -2,9 +2,9 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
-import Notification from "@/components/Notification";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import Notification from "@/components/General/Notification";
+import Navbar from "@/components/Navigation/Navbar";
+import Footer from "@/components/General/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,7 +25,7 @@ export default function RootLayout({
         <Notification />
         <Navbar />
         {children}
-        <Footer />
+        <Footer/>
       </body>
     </html>
   );
