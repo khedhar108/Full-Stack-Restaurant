@@ -1,10 +1,12 @@
 "use client";
 import React from 'react'
 
-const page = () => {
+const MenuPage = () => {
   return (
-    <div>page</div>
+    <div>Menupage
+      
+    </div>
   )
 }
 
-export default page
+export default MenuPage

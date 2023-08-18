@@ -1,0 +1,20 @@
+services:
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_User: myuser
+      POSTGRES_PASSWORD: mypassword
+      POSTGRES_DB: mydb
+    ports:
+      - 5432:5432 #Window working port and actual port
+
+
+  #  ----this part is commented due to prisma studio for DB tables
+  # adminer:
+  #   image: adminer
+  #   restart: always
+
+  # ---------------------
+  #    cd src/docker
+  #    docker compose up

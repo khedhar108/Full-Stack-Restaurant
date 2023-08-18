@@ -34,7 +34,7 @@ export default function Slider() {
 
 
   return (
-    <div className="flex flex-col h-[calc(100vh-6rem)] md:h-[calc(100vh-5rem)] lg:flex-row z-10">
+    <div className="flex flex-col h-[calc(100vh-6rem)] md:h-[calc(100vh-5rem)] lg:flex-row z-0">
       {/* Text-Container  lg:w-1/2 lg:h-full = flex-1  */}
       <div className=" flex items-center justify-center flex-col gap-8 bg-fuchsia-100 flex-1">
         <h1 className="text-4xl md:6xl lg:7xl p-4 md:p-10 text-center uppercase">
